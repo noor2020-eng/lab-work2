@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-container{
+    color: white;
+    background-color: blue;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    border: 1px solid white;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    width: 150px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container{
+    color: blue;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe , .social{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
